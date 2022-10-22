@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45740A2A2903B41700C66F39 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 45740A292903B41700C66F39 /* LICENSE */; };
 		45CD783228FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD783128FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift */; };
 		45CD783428FE1CFC00C40B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD783328FE1CFC00C40B9F /* ContentView.swift */; };
 		45CD783628FE1CFE00C40B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CD783528FE1CFE00C40B9F /* Assets.xcassets */; };
 		45CD783928FE1CFE00C40B9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CD783828FE1CFE00C40B9F /* Preview Assets.xcassets */; };
+		45CD784228FE217800C40B9F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD784128FE217800C40B9F /* Course.swift */; };
+		45CD784528FE273300C40B9F /* CoursesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD784428FE273300C40B9F /* CoursesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45740A282903B39500C66F39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45740A292903B41700C66F39 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		45CD782E28FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDevClubGpaCalcSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD783128FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDevClubGpaCalcSwiftUIApp.swift; sourceTree = "<group>"; };
 		45CD783328FE1CFC00C40B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45CD783528FE1CFE00C40B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45CD783828FE1CFE00C40B9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45CD784128FE217800C40B9F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		45CD784428FE273300C40B9F /* CoursesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 		45CD782528FE1CFC00C40B9F = {
 			isa = PBXGroup;
 			children = (
+				45740A292903B41700C66F39 /* LICENSE */,
 				45CD783028FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUI */,
 				45CD782F28FE1CFC00C40B9F /* Products */,
 			);
@@ -51,10 +59,13 @@
 		45CD783028FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				45CD783128FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift */,
-				45CD783328FE1CFC00C40B9F /* ContentView.swift */,
 				45CD783528FE1CFE00C40B9F /* Assets.xcassets */,
+				45CD784028FE216700C40B9F /* model */,
+				45CD783F28FE215200C40B9F /* view */,
+				45CD783128FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift */,
+				45CD784328FE270D00C40B9F /* viewmodel */,
 				45CD783728FE1CFE00C40B9F /* Preview Content */,
+				45740A282903B39500C66F39 /* README.md */,
 			);
 			path = AppDevClubGpaCalcSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +76,30 @@
 				45CD783828FE1CFE00C40B9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45CD783F28FE215200C40B9F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				45CD783328FE1CFC00C40B9F /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		45CD784028FE216700C40B9F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				45CD784128FE217800C40B9F /* Course.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		45CD784328FE270D00C40B9F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				45CD784428FE273300C40B9F /* CoursesViewModel.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45740A2A2903B41700C66F39 /* LICENSE in Resources */,
 				45CD783928FE1CFE00C40B9F /* Preview Assets.xcassets in Resources */,
 				45CD783628FE1CFE00C40B9F /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CD784228FE217800C40B9F /* Course.swift in Sources */,
+				45CD784528FE273300C40B9F /* CoursesViewModel.swift in Sources */,
 				45CD783428FE1CFC00C40B9F /* ContentView.swift in Sources */,
 				45CD783228FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift in Sources */,
 			);
@@ -270,6 +308,7 @@
 				DEVELOPMENT_TEAM = 8XQR9YKLCL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "GPA Calc";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +338,7 @@
 				DEVELOPMENT_TEAM = 8XQR9YKLCL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "GPA Calc";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
