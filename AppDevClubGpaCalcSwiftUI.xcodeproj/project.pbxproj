@@ -42,6 +42,7 @@
 		45CD782528FE1CFC00C40B9F = {
 			isa = PBXGroup;
 			children = (
+				45740A282903B39500C66F39 /* README.md */,
 				45740A292903B41700C66F39 /* LICENSE */,
 				45CD783028FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUI */,
 				45CD782F28FE1CFC00C40B9F /* Products */,
@@ -65,7 +66,6 @@
 				45CD783128FE1CFC00C40B9F /* AppDevClubGpaCalcSwiftUIApp.swift */,
 				45CD784328FE270D00C40B9F /* viewmodel */,
 				45CD783728FE1CFE00C40B9F /* Preview Content */,
-				45740A282903B39500C66F39 /* README.md */,
 			);
 			path = AppDevClubGpaCalcSwiftUI;
 			sourceTree = "<group>";
